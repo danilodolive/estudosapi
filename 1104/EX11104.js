@@ -37,4 +37,4 @@ rl.question('Digite a palavra ', (palavra) => {
     rl.close();
 });
 
- 
+ teste;
