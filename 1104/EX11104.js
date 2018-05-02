@@ -36,5 +36,3 @@ rl.question('Digite a palavra ', (palavra) => {
     console.log('Quantidade de vogais:', vogcons(palavra));
     rl.close();
 });
-
- teste;
