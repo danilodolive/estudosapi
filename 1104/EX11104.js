@@ -1,7 +1,8 @@
-function  vogcons(){
-    let letras = [0, 0], cons=0;
-    for (let cont=0; cont<answer.length; cont++){
-        switch (answer[cont]){
+function  vogcons(palavra){
+    palavra = palavra.toLowerCase();
+    let letra = [0, 0], cons=0;
+    for (let cont=0; cont<palavra.length; cont++){
+        switch (palavra[cont]){
             case 'a':
                 letra[1]++;
                 break;
@@ -22,7 +23,7 @@ function  vogcons(){
                 break;
         }
     }
-    return letras[1];
+    return letra[1];
 }
 
 const readline = require('readline');
